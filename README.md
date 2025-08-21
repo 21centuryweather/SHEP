@@ -18,7 +18,7 @@ ERA5 for atmosphere initialisation and lateral boundaries
 BARRA-R2 for land initialisation
 OSTIA for sea surface temperature
 
-1. GAL9 at 12.2km (BARRA-R2 initialised)  
+1. GAL9 at 12.2km
 2. RAL3p2 at 3km
 3. RAL3p2 at 1km  
 
@@ -32,15 +32,10 @@ Code to plot: [ancils/plot_domains.py](ancils/plot_domains.py).
 
 See [ancils README](ancils/README.md) if they need creation, then to run experiments:
 
-```
-svn co https://code.metoffice.gov.uk/svn/roses-u/d/g/7/6/8/rns_ostia_NA
-cd rns_ostia_NA
-rose suite-run
-```
+`TBC`
 
 ## Analysis
 
-1. [Rainfall, wind speed, moisture convergence](experiment_analysis.md)
 
 
 

@@ -1,3 +1,5 @@
+The configuration for the domain ancils are specified in this folders [rose-suite-rAM_SHEP.conf](rose-suite-rAM_SHEP.conf).
+
 ## Steps to produce
 
 1. Checkout the standard Regional Ancillary Suite (u-bu503).
@@ -16,6 +18,6 @@
 
 ## Results
 
-Four sets of ancillaries for 1 driving model and 3 nests.
+Ancillaries for 1 ERA5 driving domain and 3 simluation nests.
 
 ![SHEP domains](SHEP_domains_surface_altitude.png)
