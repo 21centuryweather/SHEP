@@ -3,14 +3,14 @@ ACCESS-rAM3 simulations for the CORDEX Sub-Hourly Extreme Precipitation (SHEP) A
 
 ## Contributions
 
-- Mathew Lipson: model setup, ancillary generation, experiment design, running experiments, documentation
-- Leena Khadke: experiment design, analysis
-- Jason Evans: experiment design, analysis
+- Leena Khadke: project management, experiment design, analysis
+- Jason Evans: project supervison, experiment design
+- Mathew Lipson: model setup, ancillary generation, experiment design, running models, documentation
+
 
 # Setup
 
 **Model**: ACCESS-rAM (with OSTIA varying sea surface temperature)  
-**Model suite**: TBC  
 **Period**: 2016‑01‑27 to 2016‑01‑31 UTC  
 **Boundaries**:
 
@@ -24,11 +24,13 @@ ACCESS-rAM3 simulations for the CORDEX Sub-Hourly Extreme Precipitation (SHEP) A
 2. RAL3p2 at 3km
 3. RAL3p2 at 1km  
 
+**Model suite repository**: TBC  
+
 # Domain
 
 ![SHEP domains](ancil_generation/SHEP_domains_surface_altitude.png)
 
-Code to plot: [ancils/plot_domains.py](ancils/plot_domains.py).
+Code to plot: [ancil_generation/plot_domains.py](ancil_generation/plot_domains.py).
 
 ## Instructions to run:
 
