@@ -1,4 +1,4 @@
-__version__ = "2025-08-21"
+__version__ = "2026-02-14"
 __author__ = "Mathew Lipson"
 __email__ = "m.lipson@unsw.edu.au"
 
@@ -25,15 +25,11 @@ import importlib
 
 ############## set up ##############
 
-region = 'SHEP'
-cylc_dir = 'ancils_SHEP'
-
-###################################
-
 oshome=os.getenv('HOME')
-ancil_path = f'{oshome}/cylc-run/{cylc_dir}/share/data/ancils/{region}'
+ancil_path = '/scratch/ng72/mjl561/cylc-run/ancils_SHEP_SY/share/data/ancils/SHEP_SY'
 plot_path = os.path.dirname(ancil_path) # parent dir of ancil_path
 domains = os.listdir(ancil_path) # list of dirs in ancil_path
+region = ancil_path.split("/")[-1]
 
 ############## functions ##############
 
@@ -74,7 +70,9 @@ def plot_domain_orography():
 
     proj = ccrs.AlbersEqualArea()
     opts = get_variable_opts('surface_altitude')
-    cmap = plt.get_cmap(opts['cmap'])
+    cmap = plt.get_cmap(opts['cmap']).copy()
+    cmap.set_under('white')
+    cmap.set_bad('white')
 
     plt.close('all')
     fig,ax = plt.subplots(nrows=1,ncols=1,figsize=(11,9),
@@ -116,7 +114,7 @@ def plot_domain_orography():
     print(f'saving {fname}')
     fig.savefig(fname,dpi=300,bbox_inches='tight')
 
-    return
+    return data
 
 def get_bounds(ds):
     """
@@ -251,4 +249,4 @@ def get_variable_opts(variable):
     return opts
 
 if __name__ == '__main__':
-    plot_domain_orography()
+    data = plot_domain_orography()

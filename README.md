@@ -7,7 +7,6 @@ ACCESS-rAM3 simulations for the CORDEX Sub-Hourly Extreme Precipitation (SHEP) A
 - Jason Evans: project supervison, experiment design
 - Mathew Lipson: model setup, ancillary generation, experiment design, running models, documentation
 
-
 # Setup
 
 **Model**: ACCESS-rAM (with OSTIA varying sea surface temperature)  
