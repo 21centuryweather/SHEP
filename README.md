@@ -25,8 +25,7 @@ ACCESS-rAM3 simulations for the CORDEX Sub-Hourly Extreme Precipitation (SHEP) A
 
 # Domain Ancillaries
 
-See individual city folders for generation information, e.g. [Sydney/README.md](Sydney/README.md)
-![SHEP domains](ancil_generation/SHEP_domains_surface_altitude.png)
+See individual city folders for generation information, e.g. [Sydney](Sydney/)
 
 Code to plot: [ancil_generation/plot_domains.py](ancil_generation/plot_domains.py).
 
