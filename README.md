@@ -40,10 +40,12 @@ Checkout the OSTIA ancillary suite
 
 Update case information, either through the GUI or in  `rose-suite.conf`.
 
+Provide a window around the case date (e.g. ±3 days) to cover simulation period and OSTIA overlap.
+
 ```
 [jinja2:suite.rc]
-COUNT="4"
-INITIAL_CYCLE_POINT="201601270000"
+COUNT="6"
+INITIAL_CYCLE_POINT="201601260000"
 OSTIA_OUTPUT="/scratch/ng72/SHEP/OSTIA_ANCIL"
 SITE="nci-gadi"
 ```
