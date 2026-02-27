@@ -38,34 +38,6 @@ These files are located at:
 /scratch/ng72/mjl561/cylc-run/ancils_SHEP_SY/share/data/ancils/
 ```
 
-## Steps to produce Ancils
-
-1. Checkout the standard Regional Ancillary Suite (u-bu503).
-
-2. Copy the optional file [rose-suite-ancils_SHEP_SY.conf](rose-suite-ancils_SHEP_SY.conf) from this repository to your u-bu503/opt directory:
-
-`cp rose-suite-ancils_SHEP_SY.conf ~/roses/u-bu503/opt/`
-
-where SY is the city of interest (e.g. Sydney).
-
-3. Run the suite with the optional file (and a custom name if desired):
-
-`rose suite-run -O ancils_SHEP_SY --name=ancils_SHEP_SY`
-
-## Steps to run model
-
-1. Checkout rAM3 (u-by395_nci_access_ram3).
-
-2. Copy the optional file [rose-suite-SHEP_SY1.conf](rose-suite-SHEP_SY1.conf) from this repository to your u-by395_nci_access_ram3/opt directory:
-
-`cp rose-suite-SHEP_SY1.conf ~/roses/u-by395_nci_access_ram3/opt/`
-
-where SY is the city of interest (e.g. Sydney), and 1 is the case number (e.g. 1 for Case 1).
-
-3. Run the suite with the optional file (and a custom name if desired):
-
-`rose suite-run --name=SHEP_SY1 -O rAM3_SHEP_SY1`
-
 ## Compute
 
 For the 1.1 km task on 24*24 = 576 cores (with Emma's additional outputs), resources were:
