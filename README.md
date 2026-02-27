@@ -65,7 +65,7 @@ Then `rose suite-run`
 
 1. Checkout rAM3 SHEP: `rosie checkout u-dx356`
 
-2. Inspect the example optional file [Sydney/rose-suite-SHEP_SY1.conf](Sydney/rose-suite-SHEP_SY1.conf), where SY is the city of interest (e.g. Sydney), and 1 is the case number (e.g. 1 for Case 1). Change to your case as necessary.
+2. Inspect the example optional file [Sydney/rose-suite-rAM3_SHEP_SY1.conf](Sydney/rose-suite-rAM3_SHEP_SY1.conf), where SY is the city of interest (e.g. Sydney), and 1 is the case number (e.g. 1 for Case 1). Change to your case as necessary.
 
 3. Run the suite with the optional file and a custom cylc-name:
 
@@ -129,7 +129,7 @@ rg01_rs03_m01_simim=false
 
 ## Alternative setup
 
-We discussed also testing a 12 km -> 1.1 km setup. That is available at [Sydney/rose-suite-ancils_SHEP_SY_nonest.conf](Sydney/rose-suite-ancils_SHEP_SY_nonest.conf)
+We discussed also testing a 12 km -> 1.1 km setup. That is available at [Sydney/rose-suite-rAM3_SHEP_SY_nonest.conf](Sydney/rose-suite-rAM3_SHEP_SY_nonest.conf)
 
 
 
