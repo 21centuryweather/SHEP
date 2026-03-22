@@ -131,6 +131,24 @@ rg01_rs03_m01_simim=false
 
 We discussed also testing a 12 km -> 1.1 km setup. That is available at [Sydney/rose-suite-rAM3_SHEP_SY_nonest.conf](Sydney/rose-suite-rAM3_SHEP_SY_nonest.conf)
 
+## Collaboration with BoM
+
+Emma Howard (BoM) is running the same cases with different setup. From her email 8 October 2025 at 1:35 pm:
+
+| Exp | Base model | Science configuration | Lateral boundaries | Land surface model | Nesting strategy | Organisation |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1. | BARPA-R | RAL3.2 | BARRA-R2 SHEP reruns | JULES | 4.4 km -> 1.1 km | BoM |
+| 2. | ACCESS-rAM3 | RAL3.3 | ERA5 | JULES | 12 km -> 4.4 km -> 1.1 km | 21st Century Weather |
+| extension | 
+| 3. | ACCESS-rAM3 | RAL3.3 | BARRA-R2 SHEP reruns | CABLE | 12 km -> 4.4 km -> 1.1 km | 21st Century Weather |
+
+The extension of running ACCESS-rAM3 with CABLE relies on NRI development of rAM3, expected by mid year 2026.
+
+21st Century weather may also undertake a test of 12 - > 1.1 km nesting with ACCESS-rAM3.
+
+
+
+
 
 
 
